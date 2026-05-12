@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 
-export default function ContactSection({ email = 'kevin@muenkel.photo' }) {
+export default function ContactSection({ email = 'kontakt@kevinmuenkel.de' }) {
   const [sent, setSent] = useState(false)
 
   function handleSubmit(e) {
@@ -25,10 +25,10 @@ export default function ContactSection({ email = 'kevin@muenkel.photo' }) {
       <div className="contact-inner">
         <div className="contact-left">
           <p className="section-label">Kontakt</p>
-          <h2 className="section-title">Lass uns zusammenarbeiten</h2>
+          <h2 className="section-title">Let's create<br />something great.</h2>
           <p className="contact-sub">
-            Du planst ein Event, eine Kampagne oder ein Portrait-Shooting?
-            Schreib mir — ich melde mich innerhalb von 24 Stunden.
+            Egal ob Event, Werbeproduktion oder Corporate Shoot –
+            ich freue mich auf Ihr Projekt. Gerne per Du!
           </p>
           <a href={`mailto:${email}`} className="cta-email">{email}</a>
         </div>

@@ -16,18 +16,19 @@ export default function Hero() {
       <div className="hero-overlay" />
 
       <div className="hero-content">
-        <span className="hero-eyebrow">Freelance Fotograf · Deutschland</span>
+        <span className="hero-eyebrow">Freelance Photographer since 2012</span>
         <h1>
-          VISUALS<br />
-          DIE <em>WIRKEN</em>
+          BRANDS,<br />
+          EVENTS,<br />
+          <em>PEOPLE.</em>
         </h1>
-        <p className="hero-sub">Events · Corporate · People · Advertising</p>
+        <p className="hero-sub">Corporate · Event · Advertising · Social Media</p>
         <div className="hero-actions">
           <Link href="/work" className="btn btn-primary">
-            Portfolio ansehen →
+            View Work →
           </Link>
           <Link href="/#contact" className="btn btn-outline">
-            Projekt anfragen
+            Get in Touch
           </Link>
         </div>
       </div>

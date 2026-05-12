@@ -5,9 +5,9 @@ import { PortableText } from '@portabletext/react'
 
 export default function AboutSection({ about }) {
   const name = about?.name || 'Kevin Münkel'
-  const location = about?.location || 'München · Berlin'
-  const tagline = about?.tagline || 'Moments that matter — captured with intent.'
-  const email = about?.email || 'kevin@muenkel.photo'
+  const location = about?.location || 'Based in Germany.'
+  const tagline = about?.tagline || 'Full-time freelance photographer for brands, events & people.'
+  const email = about?.email || 'kontakt@kevinmuenkel.de'
   const expertise = about?.expertise || ['Events & Konzerte', 'Corporate', 'People & Portraits', 'Advertising']
   const network = about?.network || ['Brands', 'Agenturen', 'Medien', 'Veranstalter']
   const quote = about?.quote || 'Licht lügt nicht.'
@@ -50,13 +50,17 @@ export default function AboutSection({ about }) {
           ) : (
             <>
               <p>
-                Ich bin freischaffender Fotograf mit Schwerpunkt auf Livemusik, Corporate Events
-                und People Photography. Mein Blick sucht den echten Moment — ungekünstelt,
-                präzise, atmosphärisch.
+                Ich bin gelernter Werbefotograf &amp; freiberuflich tätig seit 2012 in den Fotografie
+                Bereichen Corporate / Event / Werbung / Social Media Content.
               </p>
               <p>
-                Mit über 8 Jahren Erfahrung habe ich für Marken, Agenturen und Medien gearbeitet,
-                die Wert auf starke, authentische Bildsprache legen.
+                Mit einem Netzwerk aus Kollegen &amp; Kolleginnen für Fotografie / Video Produktion /
+                Post-Production / Videoschnitt / Digital Operator / Assistenz / Styling / Set Design /
+                Hair-&amp;Makeup setzen wir gemeinsam verschiedene Fotoproduktionen für unsere Kunden um.
+              </p>
+              <p>
+                Von der Event Dokumentation über Mitarbeiter Portraits bis zur Werbeproduktion:
+                Gerne berate ich Sie vorab und erstelle Ihnen faire und transparente Kostenvoranschläge.
               </p>
             </>
           )}
