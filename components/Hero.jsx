@@ -10,7 +10,7 @@ export default function Hero() {
           alt="Kevin Münkel Fotografie"
           fill
           priority
-          style={{ objectFit: 'cover' }}
+          style={{ objectFit: 'cover', opacity: 0.78 }}
         />
       </div>
       <div className="hero-overlay" />
