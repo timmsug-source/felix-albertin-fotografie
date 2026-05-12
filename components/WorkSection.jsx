@@ -63,7 +63,7 @@ export default function WorkSection({ projects = [] }) {
         {/* Fallback placeholder cards if no Sanity data yet */}
         {projects.length === 0 && (
           <>
-            <div className="work-card featured" style={{ minHeight: 600 }}>
+            <div className="work-card featured">
               <Image src="/event-hiphop.jpg" alt="Featured" fill style={{ objectFit: 'cover', opacity: 0.65 }} />
               <div className="card-info">
                 <p className="card-tag">Events & Music</p>
